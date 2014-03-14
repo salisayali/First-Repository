@@ -14,6 +14,12 @@ public class MainActivity extends Activity {
 
 		init();
 
+		secondInit();
+		
+	}
+
+	private void secondInit() {
+		Log.e("second change", "change secondInit() ");
 	}
 
 	private void init() {
